@@ -7,7 +7,7 @@ description: 当需要写作科研材料并产出可复核的结构化结果时�
 
 ## 用途
 
-本题属于**writing** 赛道。目标能力：在保留原始事实（数字、单位、引用、图表编号、专有名词）的前提下改写与扩写学术文本，产出可直接落盘的成稿，并给出逐条可核验的变更记录。
+本题属于**writing** 赛道。目标能力：按贡献不清、论证跳跃、章节失衡、术语不一致、图表未引用、重复表述六类规则诊断结构与逻辑问题，给出修改前后对照，诊断依据回溯到段落。
 
 本 Skill 在 DeepSeek Harness 中被加载到 `/skills/weekly-skill`。
 Harness 会在 3 个固定科研案例上分别调用它；每个案例的输入是
@@ -28,7 +28,7 @@ Harness 会在 3 个固定科研案例上分别调用它；每个案例的输入
 
 ## 交付物
 
-result.json（契约齐全）、改写稿、evidence_map、change_log
+structure-diagnosis.md、before-after.md、diagnosis.json
 
 交付物的**内容契约**由运行时 `output_contract` 决定（见下）；下面「交付物落盘
 要求」给出的是必须真实存在的**文件**。
