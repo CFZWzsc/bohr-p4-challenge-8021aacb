@@ -2,9 +2,9 @@
 
 本题：论文结构与逻辑优化（challenge-8021aacb，赛道 writing）。
 
-能力定位：在保留原始事实（数字、单位、引用、图表编号、专有名词）的前提下改写与扩写学术文本，产出可直接落盘的成稿，并给出逐条可核验的变更记录
+能力定位：按贡献不清、论证跳跃、章节失衡、术语不一致、图表未引用、重复表述六类规则诊断结构与逻辑问题，给出修改前后对照，诊断依据回溯到段落。
 
-交付物：result.json（契约齐全）、改写稿、evidence_map、change_log
+交付物：structure-diagnosis.md、before-after.md、diagnosis.json
 
 
 ## 这个 Skill 做什么
